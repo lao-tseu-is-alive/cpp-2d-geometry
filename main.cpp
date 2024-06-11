@@ -33,6 +33,7 @@ int main() {
     std::cout << "p0.project(p2, p1) :" << p0.project(p2, p1) << std::endl;
     std::cout << "p0.reflect(p2, p1) :" << p0.reflect(p2, p1) << std::endl;
     std::cout << "p0.rotate(PI) :" << p1.rotate(M_PI) << std::endl;
+    std::cout << "p0.midPoint(p1) :" << p0.midPoint(p1) << std::endl;
 
 
     return 0;

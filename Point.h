@@ -194,6 +194,15 @@ public:
     }
 
     /**
+     * @brief midPoint finds the midpoint between this point and another point.
+     * @param p The other point.
+     * @return The midpoint between this point and the other point.
+     */
+    [[nodiscard]] Point midPoint(const Point &p) const {
+        return (*this + p) / 2;
+    }
+
+    /**
      * @brief Operator overload to check if two points are approximately equal.
      * @param p The other point to compare with.
      * @return True if the points are approximately equal, false otherwise.
