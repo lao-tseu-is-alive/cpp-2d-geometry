@@ -27,6 +27,7 @@ int main() {
     std::cout << "Point(p2) :" << Point(p2) << std::endl;
     std::cout << "p2.norm() :" << p2.norm() << std::endl;
     std::cout << "p2.normalize() :" << p2.normalize() << std::endl;
+    std::cout << "p2 :" << p2 << std::endl;
     std::cout << "p0.dist(p2) :" << p0.dist(p2) << std::endl;
     std::cout << "p0.dist(p2, p1) :" << p0.dist(p2, p1) << std::endl;
     std::cout << "p0.project(p2, p1) :" << p0.project(p2, p1) << std::endl;
